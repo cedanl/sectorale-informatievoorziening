@@ -21,6 +21,7 @@ PAYOFF = "Onderwijs bewegen."
 #   naar      = {productindex: "vast" | "optioneel"}  -> lijn naar dat product
 #   stippel   = stippelrand (bestand is optioneel)
 #   ontbreekt = geel vak zonder lijnen (bestand bestaat niet)
+#   periode   = welke periode het bestand beslaat (blauwe regel onderin)
 # "alternatief": stippellijn van tool van product A naar product B.
 SECTOREN = [
     {
@@ -32,10 +33,10 @@ SECTOREN = [
              "tool": ["ho-bekostiging-bestanden", "inlezen, decoderen, controleren"]},
         ],
         "bestanden": [
-            {"naam": "1cijferHO", "uitleg": "studentenbestand", "naar": {0: "vast"}},
-            {"naam": "VAKHAVW", "uitleg": "havo/vwo-cijfers", "naar": {0: "optioneel"}, "stippel": True},
-            {"naam": "VLPBEK", "uitleg": "DEFBEK", "uitleg_vet": True, "naar": {1: "vast"}},
-            {"naam": "HISBEK", "uitleg": "eerdere jaren", "naar": {1: "optioneel"}, "stippel": True},
+            {"naam": "1cijferHO", "uitleg": "studentenbestand", "periode": "hele historie", "naar": {0: "vast"}},
+            {"naam": "VAKHAVW", "uitleg": "havo/vwo-cijfers", "periode": "meerdere jaren", "naar": {0: "optioneel"}, "stippel": True},
+            {"naam": "VLPBEK", "uitleg": "DEFBEK", "uitleg_vet": True, "periode": "1 jaar", "naar": {1: "vast"}},
+            {"naam": "HISBEK", "uitleg": "bekostiging", "periode": "eerdere jaren", "naar": {1: "optioneel"}, "stippel": True},
         ],
         "alternatief": None,
     },
@@ -49,9 +50,9 @@ SECTOREN = [
         ],
         "bestanden": [
             {"naam": "Geen", "uitleg": "studentenbestand", "ontbreekt": True},
-            {"naam": "RO", "uitleg": "registratieoverzicht", "naar": {0: "vast", 1: "vast"}},
-            {"naam": "TBG-i", "uitleg": "bekostiging", "naar": {0: "optioneel", 1: "vast"}},
-            {"naam": "GRONDSLAG IP", "uitleg": "register, zonder BSN", "naar": {1: "vast"}},
+            {"naam": "RO", "uitleg": "registratieoverzicht", "periode": "max. 2 jaar", "naar": {0: "vast", 1: "vast"}},
+            {"naam": "TBG-i", "uitleg": "bekostiging", "periode": "1 jaar", "naar": {0: "optioneel", 1: "vast"}},
+            {"naam": "GRONDSLAG IP", "uitleg": "register, zonder BSN", "periode": "1 oktober", "naar": {1: "vast"}},
         ],
         # mbo-bekostiging-bestanden kan het datamodel aan Staat MBO leveren
         "alternatief": (1, 0),
@@ -82,7 +83,7 @@ WORTEL_X0 = (40, 624)               # linkerrand van de eerste wortel per sector
 LEAF_Y, LEAF_H, LEAF_W = 180, 90, 260
 TOOL_Y, TOOL_H, TOOL_W = 328, 62, 250
 TRUNK_TOP, TRUNK_BOT = 452, 548
-ROOT_Y, ROOT_H, ROOT_W, ROOT_GAP = 612, 66, 128, 8
+ROOT_Y, ROOT_H, ROOT_W, ROOT_GAP = 606, 74, 128, 8
 
 out = []
 
@@ -95,7 +96,7 @@ def text(x, y, s, size=14, weight=400, fill=ZWART, anchor="middle", family=SANS,
 
 
 def box(cx, y, w, h, fill, lines, rx=12, dashed=False, sizes=(14, 12.5)):
-    """Vak met gecentreerde regels; lines = [(tekst, vet)]."""
+    """Vak met gecentreerde regels; lines = [(tekst, vet)] of [(tekst, vet, kleur)]."""
     dash = ' stroke-dasharray="6 5"' if dashed else ""
     out.append(
         f'<rect x="{cx - w / 2}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{fill}" '
@@ -103,8 +104,9 @@ def box(cx, y, w, h, fill, lines, rx=12, dashed=False, sizes=(14, 12.5)):
     )
     line_h = 17
     start = y + h / 2 - (len(lines) - 1) * line_h / 2 + 5
-    for i, (s, bold) in enumerate(lines):
-        text(cx, start + i * line_h, s, size=sizes[0] if bold else sizes[1], weight=600 if bold else 400)
+    for i, (s, bold, *kleur) in enumerate(lines):
+        text(cx, start + i * line_h, s, size=sizes[0] if bold else sizes[1], weight=600 if bold or kleur else 400,
+             fill=kleur[0] if kleur else ZWART)
 
 
 def path(d, dashed=False, width=2.2):
@@ -152,7 +154,10 @@ def teken_sector(sector, cx, x0):
     for x, b in zip(wortel_x, sector["bestanden"]):
         fill = GEEL if b.get("ontbreekt") else ROZE
         klein = len(b["uitleg"]) > 17
-        box(x, ROOT_Y, ROOT_W, ROOT_H, fill, [(b["naam"], True), (b["uitleg"], b.get("uitleg_vet", False))],
+        regels = [(b["naam"], True), (b["uitleg"], b.get("uitleg_vet", False))]
+        if b.get("periode"):
+            regels.append((b["periode"], False, BLAUW))  # blauw op roze: toegestane combinatie
+        box(x, ROOT_Y, ROOT_W, ROOT_H, fill, regels,
             dashed=b.get("stippel") or b.get("ontbreekt"), sizes=(14, 11.5 if klein else 12.5))
 
 
