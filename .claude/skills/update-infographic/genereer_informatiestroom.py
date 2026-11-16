@@ -44,7 +44,7 @@ SECTOREN = [
         "label": "Mbo",
         "producten": [
             {"titel": ["Staat van de", "Onderwijsinstelling MBO"], "uitleg": "indicatoren studiesucces mbo",
-             "tool": ["Samenvoegen in Staat MBO", "RO's stapelen tot 10 jaar"]},
+             "tool": ["Samenvoegen in Staat MBO", "RO's stapelen, min. 6 jaar"]},
             {"titel": ["Bekostigingsdashboard"], "uitleg": "aantallen",
              "tool": ["mbo-bekostiging-bestanden", "inlezen, decoderen, controleren"]},
         ],
@@ -52,7 +52,7 @@ SECTOREN = [
             {"naam": "Geen", "uitleg": "studentenbestand", "ontbreekt": True},
             {"naam": "RO", "uitleg": "registratieoverzicht", "periode": "max. 2 jaar", "naar": {0: "vast", 1: "vast"}},
             {"naam": "TBG-i", "uitleg": "bekostiging", "periode": "1 jaar", "naar": {0: "optioneel", 1: "vast"}},
-            {"naam": "GRONDSLAG IP", "uitleg": "register, zonder BSN", "periode": "1 oktober", "naar": {1: "vast"}},
+            {"naam": "Afslag", "uitleg": "registerlevering IP", "periode": "1 oktober", "naar": {1: "vast"}},
         ],
         # mbo-bekostiging-bestanden kan het datamodel aan Staat MBO leveren
         "alternatief": (1, 0),

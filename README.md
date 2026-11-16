@@ -9,28 +9,60 @@ CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die dez
 ## De informatiestroom
 
 <p align="center">
-  <img src="assets/informatiestroom.svg" alt="Boom van DUO-bestand naar inzicht. Hbo en wo: 1cijferHO via 1cijferho naar Staat van de Onderwijsinstelling; VLPBEK en DEFBEK via ho-bekostiging-bestanden naar een bekostigingsdashboard. Mbo: geen studentenbestand; RO en TBG-i naar Staat van de Onderwijsinstelling MBO; RO, TBG-i en GRONDSLAG IP via mbo-bekostiging-bestanden naar een bekostigingsdashboard." width="100%">
+  <img src="assets/informatiestroom.svg" alt="Boom van DUO-bestand naar inzicht. Hbo en wo: 1cijferHO via 1cijferho naar Staat van de Onderwijsinstelling; VLPBEK en DEFBEK via ho-bekostiging-bestanden naar een bekostigingsdashboard. Mbo: geen studentenbestand; registratieoverzicht (RO) en TBG-i naar Staat van de Onderwijsinstelling MBO; registratieoverzicht (RO), TBG-i en afslag registerlevering IP via mbo-bekostiging-bestanden naar een bekostigingsdashboard." width="100%">
 </p>
 
-Het verschil tussen de sectoren zit in de wortels, de DUO-bestanden. Hbo en wo hebben met 1cijferHO een studentenbestand dat voor studiesucces bedoeld is en de hele historie van de studenten bevat. Het mbo heeft dat niet; daar leiden we studiesucces af uit de bekostigingsbestanden RO en TBG-i. Een RO beslaat maximaal 2 jaar, dus voor 10 jaar zijn 5 RO's nodig. Een TBG-i gaat over één bekostigingsjaar. Per bestand staat de periode op de pagina [DUO-bestanden](docs/duo-bestanden.md).
+Het verschil tussen de sectoren zit in de wortels, de DUO-bestanden. Hbo en wo hebben met 1cijferHO een studentenbestand dat voor studiesucces bedoeld is en de hele historie van de studenten bevat. Het mbo heeft dat niet; daar leiden we studiesucces af uit het registratieoverzicht (RO) en de terugmelding bekostigingsgrondslagen individueel (TBG-i). Een RO beslaat maximaal 2 jaar. Voor volledige studiesuccescijfers zijn minstens 6 jaar nodig, dus 3 opeenvolgende RO's. Een TBG-i gaat over één bekostigingsjaar. Per bestand staat de periode op de pagina [DUO-bestanden](docs/duo-bestanden.md).
 
 ## Producten
 
 ### Studiesucces
 
-| Product | Voor | DUO-bestanden | Levert |
-|---|---|---|---|
-| [Staat van de Onderwijsinstelling](https://github.com/cedanl/staat-van-onderwijsinstelling) | hbo en wo | 1cijferHO (omgezet met 1cijferho), optioneel VAKHAVW | Analysebestand per student, dashboard met instroom, rendement, uitval en studiewissel, benchmarkrapport om te delen |
-| [1cijferho](https://github.com/cedanl/1cijferho) | hbo en wo | 1cijferHO, VAKHAVW | Leesbare tabellen als invoer voor Staat van de Onderwijsinstelling |
-| [wisselstroom](https://github.com/cedanl/wisselstroom) | hbo en wo | VLPBEK, DEFBEK | Per inschrijving of een student blijft, wisselt, stapelt, stopt of begint, en naar welke instelling; stroomdiagram |
-| [Staat van de Onderwijsinstelling MBO](https://github.com/cedanl/staat-van-onderwijsinstelling-mbo) | mbo | RO (meerdere, tot 10 jaar), optioneel TBG-i | Dashboard met de indicatoren uit de Regeling studiesucces mbo, cohorten en loopbanen |
+<table>
+<tr><th align="left">Product</th><th align="left">Voor</th><th align="left">DUO-bestanden</th><th align="left">Levert</th></tr>
+<tr>
+<td valign="top"><a href="https://github.com/cedanl/staat-van-onderwijsinstelling">Staat van de Onderwijsinstelling</a></td>
+<td valign="top">hbo en wo</td>
+<td valign="top"><ul><li><a href="docs/duo-bestanden.md#1cijferho-bestand">1cijferHO-bestand</a> (eerst omgezet met het product 1cijferho).</li></ul>Optioneel<ul><li><a href="docs/duo-bestanden.md#vakkenbestand-vakhavw">Vakkenbestand (VAKHAVW)</a>.</li></ul></td>
+<td valign="top">Analysebestand per student. Dashboard met instroom, rendement, uitval en studiewissel. Benchmarkrapport om te delen.</td>
+</tr>
+<tr>
+<td valign="top"><a href="https://github.com/cedanl/1cijferho">1cijferho</a></td>
+<td valign="top">hbo en wo</td>
+<td valign="top"><ul><li><a href="docs/duo-bestanden.md#1cijferho-bestand">1cijferHO-bestand</a>, met bestandsbeschrijving en decodeertabellen.</li></ul>Optioneel<ul><li><a href="docs/duo-bestanden.md#vakkenbestand-vakhavw">Vakkenbestand (VAKHAVW)</a>.</li></ul></td>
+<td valign="top">Leesbare tabellen als invoer voor Staat van de Onderwijsinstelling.</td>
+</tr>
+<tr>
+<td valign="top"><a href="https://github.com/cedanl/wisselstroom">wisselstroom</a></td>
+<td valign="top">hbo en wo</td>
+<td valign="top">Eén van:<ul><li><a href="https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/rod-controleren/bekostigingsstatus-studenten.jsp">Analysebestand voorlopige bekostiging (VLPBEK)</a>.</li><li><a href="https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/rod-controleren/bekostigingsstatus-studenten.jsp">Analysebestand definitieve bekostiging (DEFBEK)</a>.</li></ul></td>
+<td valign="top">Per inschrijving of een student blijft, wisselt, stapelt, stopt of begint, en naar welke instelling. Stroomdiagram.</td>
+</tr>
+<tr>
+<td valign="top"><a href="https://github.com/cedanl/staat-van-onderwijsinstelling-mbo">Staat van de Onderwijsinstelling MBO</a></td>
+<td valign="top">mbo</td>
+<td valign="top"><ul><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/studentenadministratie/rod-en-uw-administratie.jsp">Registratieoverzicht (RO)</a>: één of meer. Eén RO beslaat maximaal 2 jaar. Diplomaresultaat en startersresultaat zijn pas volledig met minstens 6 jaar, dus 3 opeenvolgende RO's.</li></ul>Optioneel<ul><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/bekostiging-en-subsidies/bekostiging-mbo/terugmelding-bekostigingsgrondslagen-individueel.jsp">Terugmelding bekostigingsgrondslagen individueel (TBG-i)</a>, alleen samen met minstens één RO.</li></ul></td>
+<td valign="top">Dashboard met de indicatoren uit de Regeling studiesucces mbo, cohorten en loopbanen.</td>
+</tr>
+</table>
 
 ### Bekostiging
 
-| Product | Voor | DUO-bestanden | Levert |
-|---|---|---|---|
-| [ho-bekostiging-bestanden](https://github.com/cedanl/ho-bekostiging-bestanden) | hbo en wo | VLPBEK, DEFBEK, optioneel HISBEK | Schone tabellen, datamodel en dashboard: bekostigingstrechter, redenen van niet-bekostiging, voorlopig tegenover definitief, historie |
-| [mbo-bekostiging-bestanden](https://github.com/cedanl/mbo-bekostiging-bestanden) | mbo | RO, TBG-i, GRONDSLAG IP | Schone tabellen, datamodel en dashboard met aantallen |
+<table>
+<tr><th align="left">Product</th><th align="left">Voor</th><th align="left">DUO-bestanden</th><th align="left">Levert</th></tr>
+<tr>
+<td valign="top"><a href="https://github.com/cedanl/ho-bekostiging-bestanden">ho-bekostiging-bestanden</a></td>
+<td valign="top">hbo en wo</td>
+<td valign="top">Eén of meer van:<ul><li><a href="https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/rod-controleren/bekostigingsstatus-studenten.jsp">Analysebestand voorlopige bekostiging (VLPBEK)</a>.</li><li><a href="https://duo.nl/zakelijk/hoger-onderwijs/studentenadministratie/rod-controleren/bekostigingsstatus-studenten.jsp">Analysebestand definitieve bekostiging (DEFBEK)</a>.</li><li><a href="docs/duo-bestanden.md#historisch-bestand-definitieve-bekostiging-hisbek">Historisch bestand definitieve bekostiging (HISBEK)</a>.</li></ul></td>
+<td valign="top">Schone tabellen en datamodel. Dashboard met bekostigingstrechter, redenen van niet-bekostiging, voorlopig tegenover definitief en historie.</td>
+</tr>
+<tr>
+<td valign="top"><a href="https://github.com/cedanl/mbo-bekostiging-bestanden">mbo-bekostiging-bestanden</a></td>
+<td valign="top">mbo</td>
+<td valign="top">Eén of meer van:<ul><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/studentenadministratie/rod-en-uw-administratie.jsp">Registratieoverzicht (RO)</a>.</li><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/bekostiging-en-subsidies/bekostiging-mbo/terugmelding-bekostigingsgrondslagen-individueel.jsp">Terugmelding bekostigingsgrondslagen individueel (TBG-i)</a>.</li><li><a href="docs/duo-bestanden.md#afslag-registerlevering-ip">Afslag registerlevering IP</a>.</li></ul></td>
+<td valign="top">Schone tabellen en datamodel. Dashboard met aantallen.</td>
+</tr>
+</table>
 
 ### Hoe de tools met gegevens omgaan
 

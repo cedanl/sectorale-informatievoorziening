@@ -16,6 +16,7 @@ Projectrepo van CEDA/Npuls. Bevat alleen documentatie: het verhaal, de samenhang
 - Nederlands. Schrijf voor beleidsmakers zonder technische voorkennis: bondig, direct, geen verkooppraat, geen beleidsadvies, geen zinnen over hoe iets bijdraagt aan een ambitie.
 - Schrijf "hbo en wo" (of "hbo/wo" in labels), niet "ho". Repo-namen en titels van presentaties blijven zoals ze zijn.
 - Ordening op vraag (studiesucces, bekostiging), niet op sector.
+- Noem DUO-bestanden altijd bij hun DUO-naam uit het Programma van Eisen (bijv. "Analysebestand voorlopige bekostiging (VLPBEK)", "Afslag registerlevering IP"), nooit bij een eigen naam. Link naar de plek waar een instelling het bestand ophaalt. In tabellen één bestand per regel, met wat verplicht of optioneel is zoals de productrepo het beschrijft.
 - Huisstijl: Npuls. Alleen kleurcombinaties uit de huisstijl, General Sans met Arial als terugval, zwarte lijnen. Geen Npuls-logo op de pagina.
 - Houd de producttabellen, `docs/duo-bestanden.md` en de infographic gelijk met de README's van de productrepo's. De infographic toont per sector de hoofdroute per vraag; wisselstroom staat alleen in de tabel.
 - Presentaties staan in `cedanl/clidev-presentaties/exports/`. Link ernaartoe; zet geen PDF's in deze repo.
