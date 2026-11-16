@@ -13,7 +13,7 @@ Twee verschillen zijn wezenlijk.
 
 ## Kansen
 
-Omdat mbo en hbo/wo dezelfde vragen stellen, kan één tool alle sectoren bedienen zodra de bestanden dezelfde vorm hebben. Daarvoor zijn kleine stappen genoeg, zonder de regels te veranderen. Wat echt bij een sector hoort, zoals stage in het mbo en joint degrees in hbo en wo, blijft verschillen. Meer in [MBO en HO: wat is er mogelijk met de bekostigingsbestanden?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/260921_MBO_HO_bekostigingsbestanden.pdf) (concept).
+Omdat mbo en hbo/wo dezelfde vragen stellen, kan één tool alle sectoren bedienen zodra de bestanden dezelfde vorm hebben. Daarvoor zijn kleine stappen genoeg, zonder de regels te veranderen. Wat echt bij een sector hoort, zoals stage in het mbo en joint degrees in hbo en wo, blijft verschillen. Dezelfde tool betekent ook dezelfde definities, dus cijfers die instellingen onderling kunnen vergelijken en samen kunnen analyseren. Meer in [MBO en HO: wat is er mogelijk met de bekostigingsbestanden?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/260921_MBO_HO_bekostigingsbestanden.pdf) (concept).
 
 ## Drie richtingen
 
