@@ -67,5 +67,5 @@ Handleidingen en technische documentatie per tool: zie [Documentatie](docs/docum
 Vragen of zin om mee te bouwen?
 
 - E-mail: [ceda@surf.nl](mailto:ceda@surf.nl)
-- Community: [community.npuls.nl/groups/data-ai](https://community.npuls.nl/groups/data-ai)
+- Community: [community-data-ai.npuls.nl](https://community-data-ai.npuls.nl/)
 - GitHub: [github.com/cedanl](https://github.com/cedanl)
