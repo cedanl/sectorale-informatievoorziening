@@ -16,8 +16,6 @@ Het verschil tussen de sectoren zit in de wortels, de DUO-bestanden. Hbo en wo h
 
 ## Producten
 
-Namen van bestanden zijn de namen die DUO gebruikt. Elke link gaat naar de plek waar een instelling het bestand ophaalt; waar DUO daar geen openbare pagina voor heeft, naar de uitleg op [DUO-bestanden](docs/duo-bestanden.md).
-
 ### Studiesucces
 
 <table>
