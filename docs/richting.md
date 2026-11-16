@@ -6,7 +6,10 @@ Terug naar de [projectpagina](../README.md).
 
 Mbo en hbo/wo stellen dezelfde vragen aan bijna dezelfde bestanden. Bijna elk bestand heeft een tegenhanger in de andere sector, van registratieoverzicht tot accountantsrapport. De verschillen zitten vooral in de vorm: datums (`2025-01-30` tegenover `20250130`), bestandsnamen, XML tegenover CSV, en beschrijvingen in PDF's die vaak veranderen (hbo en wo 23 versies sinds 2020, mbo 19 sinds 2019).
 
-Eén verschil is wezenlijk. Een hbo- of wo-instelling ziet ook inschrijvingen en graden van eigen studenten bij andere instellingen. Een mbo-instelling ziet alleen de eigen inschrijvingen, waardoor een student die overstapt lijkt op een student die stopt.
+Twee verschillen zijn wezenlijk.
+
+- **Een studentenbestand.** Hbo en wo krijgen het 1cijferHO-bestand, dat DUO samenstelt voor onderzoek naar studiesucces, met de hele historie van de studenten en hun vooropleiding. Het mbo heeft zo'n bestand niet. Daar voegen we registratieoverzichten samen. Elk beslaat maximaal 2 jaar; voor volledige cijfers zijn er minstens 3 nodig. Vooropleiding en herkomst staan er niet in. Richting 3 gaat hierover.
+- **Wat een instelling ziet.** Een hbo- of wo-instelling ziet in de bekostigingsbestanden ook inschrijvingen en graden van eigen studenten bij andere instellingen. Een mbo-instelling ziet alleen de eigen inschrijvingen, waardoor een student die overstapt lijkt op een student die stopt.
 
 ## Drie richtingen
 
