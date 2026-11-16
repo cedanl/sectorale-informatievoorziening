@@ -6,7 +6,7 @@ Projectrepo van CEDA/Npuls. Bevat alleen documentatie: het verhaal, de samenhang
 
 - `README.md`: de pagina voor beleidsmakers en stakeholders zoals DUO. Primaire interface.
 - `docs/duo-bestanden.md`: de DUO-bestanden, waar je ze ophaalt en welke tool ze leest.
-- `docs/richting.md`: wat we zagen bij het bouwen, drie richtingen en kansen. In de README alleen een samenvatting van drie regels.
+- `docs/richting.md`: wat we zagen bij het bouwen, de kans en drie richtingen om die te benutten. In de README alleen de kans in één zin en de drie richtingen in één regel elk.
 - `docs/documentatie.md`: links naar handleidingen en technische documentatie per tool.
 - `assets/informatiestroom.svg`: de boom-infographic. Nooit met de hand aanpassen; gebruik de skill `update-infographic` (`.claude/skills/update-infographic/`).
 - `docs/specs/`: beslis-samenvattingen.

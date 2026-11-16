@@ -18,4 +18,4 @@ Handleidingen en technische documentatie per tool. Terug naar de [projectpagina]
 ## Binnen dit project
 
 - [DUO-bestanden](duo-bestanden.md): wat erin staat, welke periode, waar je ze ophaalt
-- [Waar we heen willen](richting.md): wat we zagen bij het bouwen, drie richtingen en kansen
+- [Waar we heen willen](richting.md): wat we zagen bij het bouwen, de kans en drie richtingen

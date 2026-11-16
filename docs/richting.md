@@ -13,6 +13,10 @@ Twee verschillen zijn wezenlijk.
 
 ## Drie richtingen
 
+Daar ligt een kans. Omdat de vragen gelijk zijn, kan één tool alle sectoren bedienen zodra de bestanden dezelfde vorm hebben. Daarvoor zijn kleine stappen genoeg, zonder de regels te veranderen. Wat echt bij een sector hoort, zoals stage in het mbo en joint degrees in hbo en wo, blijft verschillen. Meer in [MBO en HO: wat is er mogelijk met de bekostigingsbestanden?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/260921_MBO_HO_bekostigingsbestanden.pdf) (concept).
+
+Die kans willen we in drie richtingen benutten.
+
 **1. Eén open beschrijving van de bestanden.** Elk veld en elke code als tabel, naast de PDF. Tools lezen de bestanden dan automatisch in en een nieuwe versie laat zien wat er veranderde.
 *Nu:* beschrijvingen voor vijf bestandssoorten, met de hand overgenomen uit de PDF's. *Volgende stap:* de TBG-i (mbo) en het analysebestand (hbo en wo) in één vorm naast elkaar zetten. Die twee beantwoorden dezelfde vraag: wie wordt bekostigd en waarom niet.
 
@@ -21,7 +25,3 @@ Twee verschillen zijn wezenlijk.
 
 **3. Studiesucces in het mbo op dezelfde manier volgen als in hbo en wo.** Uit RO en TBG-i per instelling een bestand maken in de vorm van 1cijferHO.
 *Nu:* 47 van de 115 velden van 1cijferHO zijn per instelling te vullen. Dat is genoeg voor rendement en uitval per opleiding, en te weinig voor kansengelijkheid, omdat vooropleiding, herkomst en regio ontbreken. Staat van de Onderwijsinstelling MBO draait met een eigen mbo-dashboard op demodata. *Volgende stap:* de cijfers toetsen op echte data van één instelling. Meer in [Een 1CHO voor het mbo?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/261001_mbo_1cho_haalbaarheid.pdf)
-
-## Kansen
-
-Omdat mbo en hbo/wo dezelfde vragen stellen, kan één tool alle sectoren bedienen als de bestanden dezelfde vorm hebben. Daarvoor zijn kleine stappen genoeg, zonder de regels te veranderen: een schema per bestandssoort, codelijsten als tabel, een wijzigingslog per versie en dezelfde begrippen en groepen redenen. Wat echt bij een sector hoort, zoals stage in het mbo en joint degrees in hbo en wo, blijft verschillen. Meer in [MBO en HO: wat is er mogelijk met de bekostigingsbestanden?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/260921_MBO_HO_bekostigingsbestanden.pdf) (concept).
