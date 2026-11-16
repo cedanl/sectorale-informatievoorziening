@@ -4,7 +4,7 @@ Mbo-, hbo- en wo-instellingen krijgen van DUO bestanden over hun studenten en hu
 
 ## Wat we doen
 
-CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die deze bestanden inlezen en er cijfers over **studiesucces** en **bekostiging** van maken. De definities liggen vast en zijn gedocumenteerd. Instellingen die dezelfde tool gebruiken, krijgen daardoor cijfers die ze naast elkaar kunnen leggen. Waar de bestanden het toelaten, werken de tools in mbo, hbo en wo op dezelfde manier.
+CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die deze bestanden inlezen en er cijfers over **studiesucces** en **bekostiging** van maken. De definities liggen vast en zijn gedocumenteerd. Omdat elke instelling zo met dezelfde definities rekent, kunnen instellingen hun cijfers vergelijken en samen analyses doen. Waar de bestanden het toelaten, werken de tools in mbo, hbo en wo op dezelfde manier.
 
 ## De informatiestroom
 
@@ -72,13 +72,6 @@ Het verschil tussen de sectoren zit in de wortels. Hbo en wo krijgen van DUO het
 - Elke tool heeft demodata, zodat je hem kunt bekijken zonder echte gegevens.
 
 Welke DUO-bestanden dit zijn, wat erin staat en waar een instelling ze ophaalt: zie [DUO-bestanden](docs/duo-bestanden.md).
-
-## Vergelijken en samen analyseren
-
-Omdat elke instelling met dezelfde definities rekent, zijn de uitkomsten onderling te vergelijken.
-
-- **Nu.** Staat van de Onderwijsinstelling maakt voor hbo en wo een benchmarkrapport: een Excel-bestand met percentages per sector, opleidingsvorm, niveau en instroomjaar. Er staan geen persoonsnummers in en kleine groepen blijven leeg. De instelling beslist zelf of ze het deelt; CEDA verzamelt de rapporten niet. De grenzen voor kleine groepen zijn nog niet getoetst door een privacy officer of FG.
-- **Mogelijk.** Hetzelfde rapport voor het mbo, en analyses die instellingen samen doen op de gedeelde rapporten, bijvoorbeeld binnen een regio of tussen vergelijkbare opleidingen. Dit is nog niet gebouwd en niet getoetst bij instellingen.
 
 ## Waar we heen willen
 
