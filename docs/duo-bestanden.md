@@ -72,7 +72,7 @@ Het mbo heeft geen bestand zoals het 1cijferHO-bestand. Staat van de Onderwijsin
 ### Registratieoverzicht (RO)
 
 - **Wat erin staat:** alle inschrijvingen en diploma's van de instelling zoals ze in het Register Onderwijsdeelnemers (ROD) staan.
-- **Periode:** een selectieperiode die de instelling kiest, van maximaal 2 jaar. Voor 10 jaar zijn 5 opeenvolgende registratieoverzichten nodig.
+- **Periode:** een selectieperiode die de instelling kiest, van maximaal 2 jaar. Staat van de Onderwijsinstelling MBO heeft minstens 6 jaar nodig voor een volledig diplomaresultaat en startersresultaat, dus 3 opeenvolgende registratieoverzichten.
 - **Bestandsnaam:** `RO_<instellingscode>_<begindatum>_<einddatum>.CSV`
 - **Ophalen:** [Mijn DUO, registratieoverzicht opvragen](https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/studentenadministratie/rod-en-uw-administratie.jsp). Klaar de volgende werkdag.
 - **Beschrijving:** PvE mbo-instellingen, bijlage 7 (Bestandsbeschrijving registratieoverzicht); aanvragen in paragraaf 7.2.

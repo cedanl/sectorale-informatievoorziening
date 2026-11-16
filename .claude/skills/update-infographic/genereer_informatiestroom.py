@@ -44,7 +44,7 @@ SECTOREN = [
         "label": "Mbo",
         "producten": [
             {"titel": ["Staat van de", "Onderwijsinstelling MBO"], "uitleg": "indicatoren studiesucces mbo",
-             "tool": ["Samenvoegen in Staat MBO", "RO's stapelen tot 10 jaar"]},
+             "tool": ["Samenvoegen in Staat MBO", "RO's stapelen, min. 6 jaar"]},
             {"titel": ["Bekostigingsdashboard"], "uitleg": "aantallen",
              "tool": ["mbo-bekostiging-bestanden", "inlezen, decoderen, controleren"]},
         ],

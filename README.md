@@ -12,7 +12,7 @@ CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die dez
   <img src="assets/informatiestroom.svg" alt="Boom van DUO-bestand naar inzicht. Hbo en wo: 1cijferHO via 1cijferho naar Staat van de Onderwijsinstelling; VLPBEK en DEFBEK via ho-bekostiging-bestanden naar een bekostigingsdashboard. Mbo: geen studentenbestand; registratieoverzicht (RO) en TBG-i naar Staat van de Onderwijsinstelling MBO; registratieoverzicht (RO), TBG-i en afslag registerlevering IP via mbo-bekostiging-bestanden naar een bekostigingsdashboard." width="100%">
 </p>
 
-Het verschil tussen de sectoren zit in de wortels, de DUO-bestanden. Hbo en wo hebben met 1cijferHO een studentenbestand dat voor studiesucces bedoeld is en de hele historie van de studenten bevat. Het mbo heeft dat niet; daar leiden we studiesucces af uit het registratieoverzicht (RO) en de terugmelding bekostigingsgrondslagen individueel (TBG-i). Een RO beslaat maximaal 2 jaar, dus voor 10 jaar zijn 5 RO's nodig. Een TBG-i gaat over één bekostigingsjaar. Per bestand staat de periode op de pagina [DUO-bestanden](docs/duo-bestanden.md).
+Het verschil tussen de sectoren zit in de wortels, de DUO-bestanden. Hbo en wo hebben met 1cijferHO een studentenbestand dat voor studiesucces bedoeld is en de hele historie van de studenten bevat. Het mbo heeft dat niet; daar leiden we studiesucces af uit het registratieoverzicht (RO) en de terugmelding bekostigingsgrondslagen individueel (TBG-i). Een RO beslaat maximaal 2 jaar. Voor volledige studiesuccescijfers zijn minstens 6 jaar nodig, dus 3 opeenvolgende RO's. Een TBG-i gaat over één bekostigingsjaar. Per bestand staat de periode op de pagina [DUO-bestanden](docs/duo-bestanden.md).
 
 ## Producten
 
@@ -41,7 +41,7 @@ Het verschil tussen de sectoren zit in de wortels, de DUO-bestanden. Hbo en wo h
 <tr>
 <td valign="top"><a href="https://github.com/cedanl/staat-van-onderwijsinstelling-mbo">Staat van de Onderwijsinstelling MBO</a></td>
 <td valign="top">mbo</td>
-<td valign="top"><ul><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/studentenadministratie/rod-en-uw-administratie.jsp">Registratieoverzicht (RO)</a>: één of meer. Eén RO beslaat maximaal 2 jaar; 5 opeenvolgende RO's geven ongeveer 10 jaar.</li></ul>Optioneel<ul><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/bekostiging-en-subsidies/bekostiging-mbo/terugmelding-bekostigingsgrondslagen-individueel.jsp">Terugmelding bekostigingsgrondslagen individueel (TBG-i)</a>, alleen samen met minstens één RO.</li></ul></td>
+<td valign="top"><ul><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/studentenadministratie/rod-en-uw-administratie.jsp">Registratieoverzicht (RO)</a>: één of meer. Eén RO beslaat maximaal 2 jaar. Diplomaresultaat en startersresultaat zijn pas volledig met minstens 6 jaar, dus 3 opeenvolgende RO's.</li></ul>Optioneel<ul><li><a href="https://duo.nl/zakelijk/middelbaar-beroepsonderwijs/bekostiging-en-subsidies/bekostiging-mbo/terugmelding-bekostigingsgrondslagen-individueel.jsp">Terugmelding bekostigingsgrondslagen individueel (TBG-i)</a>, alleen samen met minstens één RO.</li></ul></td>
 <td valign="top">Dashboard met de indicatoren uit de Regeling studiesucces mbo, cohorten en loopbanen.</td>
 </tr>
 </table>
