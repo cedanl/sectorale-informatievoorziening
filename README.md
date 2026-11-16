@@ -75,7 +75,7 @@ Welke DUO-bestanden dit zijn, wat erin staat en waar een instelling ze ophaalt: 
 
 ## Waar we heen willen
 
-Drie richtingen, uitgewerkt in [Waar we heen willen](docs/richting.md):
+Mbo en hbo/wo stellen dezelfde vragen. Krijgen de bestanden dezelfde vorm, dan kan één tool alle sectoren bedienen, zonder de regels te veranderen. Die kans willen we in drie richtingen benutten, uitgewerkt in [Waar we heen willen](docs/richting.md):
 
 1. Eén open beschrijving van de DUO-bestanden, zodat tools ze automatisch inlezen.
 2. Eén overzicht van wie wordt bekostigd en waarom niet, voor mbo en hbo/wo.
