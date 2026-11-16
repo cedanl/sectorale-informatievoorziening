@@ -15,6 +15,8 @@ Twee verschillen zijn wezenlijk.
 
 Omdat mbo en hbo/wo dezelfde vragen stellen, kan één tool alle sectoren bedienen zodra de bestanden dezelfde vorm hebben. Daarvoor zijn kleine stappen genoeg, zonder de regels te veranderen. Wat echt bij een sector hoort, zoals stage in het mbo en joint degrees in hbo en wo, blijft verschillen. Meer in [MBO en HO: wat is er mogelijk met de bekostigingsbestanden?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/260921_MBO_HO_bekostigingsbestanden.pdf) (concept).
 
+Er is ook een kans aan de kant van de instellingen. Rekenen instellingen met dezelfde definities, dan kunnen ze hun cijfers naast elkaar leggen en samen analyses doen. Voor hbo en wo maakt Staat van de Onderwijsinstelling daarvoor een benchmarkrapport dat een instelling zelf kan delen. Voor het mbo is dat er nog niet, en gezamenlijke analyses zijn nog niet getoetst bij instellingen.
+
 ## Drie richtingen
 
 Die kansen willen we in drie richtingen benutten.
