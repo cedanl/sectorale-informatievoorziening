@@ -9,6 +9,7 @@
 - **Visual:** SVG in Npuls-huisstijl (geen Mermaid, dat kan de huisstijl niet volgen). Wortels zijn DUO-bestanden, stam de tools, kruin de producten. Bijwerken via de projectskill `.claude/skills/update-infographic/`, waar ook het script staat. De README verwijst er niet naar.
 - **Ronde 2:** geen Npuls-logo; intro begint direct met het waarom; lessen zitten in "Waar we heen willen"; geen gespreksonderwerpen, "Kansen" is de grens; geen kolom "Stand"; "hbo en wo" in plaats van "ho"; ordening op vraag; DUO-bestanden op een eigen pagina met links naar de plek waar instellingen ze ophalen.
 - **Ronde 3:** "Waar we heen willen" op eigen pagina (`docs/richting.md`); "beide sectoren" vervangen door "mbo en hbo/wo" (Npuls spreekt van drie sectoren: mbo, hbo en wo); herhalende en verdedigende zinnen geschrapt.
+- **Ronde 4:** wisselstroom als product in de tabel (niet in de infographic, die toont de hoofdroute per vraag); documentatie op eigen pagina; periode per DUO-bestand op de bestandenpagina en in de infographic; "Doel" vervangen door probleem in de intro en "Wat we doen".
 - **Presentaties:** de PDF's staan met nette namen in `cedanl/clidev-presentaties/exports/`; deze repo linkt ernaartoe. De rapportage van 21 september heet "concept".
 - **De one-pager** (`sectorale-informatievoorziening.html`) is bron voor de inhoud, niet als los bestand opgenomen.
 - **Herkenbaarheid van projectrepo's:** gewone naam, GitHub-topic `project`, en een sectie "Projecten" op de cedanl-profielpagina.
