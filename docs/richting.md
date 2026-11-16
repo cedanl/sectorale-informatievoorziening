@@ -11,11 +11,13 @@ Twee verschillen zijn wezenlijk.
 - **Een studentenbestand.** Hbo en wo krijgen het 1cijferHO-bestand, dat DUO samenstelt voor onderzoek naar studiesucces, met de hele historie van de studenten en hun vooropleiding. Het mbo heeft zo'n bestand niet. Daar voegen we registratieoverzichten samen. Elk beslaat maximaal 2 jaar; voor volledige cijfers zijn er minstens 3 nodig. Vooropleiding en herkomst staan er niet in. Richting 3 gaat hierover.
 - **Wat een instelling ziet.** Een hbo- of wo-instelling ziet in de bekostigingsbestanden ook inschrijvingen en graden van eigen studenten bij andere instellingen. Een mbo-instelling ziet alleen de eigen inschrijvingen, waardoor een student die overstapt lijkt op een student die stopt.
 
+## Kansen
+
+Omdat mbo en hbo/wo dezelfde vragen stellen, kan één tool alle sectoren bedienen zodra de bestanden dezelfde vorm hebben. Daarvoor zijn kleine stappen genoeg, zonder de regels te veranderen. Wat echt bij een sector hoort, zoals stage in het mbo en joint degrees in hbo en wo, blijft verschillen. Meer in [MBO en HO: wat is er mogelijk met de bekostigingsbestanden?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/260921_MBO_HO_bekostigingsbestanden.pdf) (concept).
+
 ## Drie richtingen
 
-Daar ligt een kans. Omdat de vragen gelijk zijn, kan één tool alle sectoren bedienen zodra de bestanden dezelfde vorm hebben. Daarvoor zijn kleine stappen genoeg, zonder de regels te veranderen. Wat echt bij een sector hoort, zoals stage in het mbo en joint degrees in hbo en wo, blijft verschillen. Meer in [MBO en HO: wat is er mogelijk met de bekostigingsbestanden?](https://github.com/cedanl/clidev-presentaties/blob/main/exports/260921_MBO_HO_bekostigingsbestanden.pdf) (concept).
-
-Die kans willen we in drie richtingen benutten.
+Die kansen willen we in drie richtingen benutten.
 
 **1. Eén open beschrijving van de bestanden.** Elk veld en elke code als tabel, naast de PDF. Tools lezen de bestanden dan automatisch in en een nieuwe versie laat zien wat er veranderde.
 *Nu:* beschrijvingen voor vijf bestandssoorten, met de hand overgenomen uit de PDF's. *Volgende stap:* de TBG-i (mbo) en het analysebestand (hbo en wo) in één vorm naast elkaar zetten. Die twee beantwoorden dezelfde vraag: wie wordt bekostigd en waarom niet.
