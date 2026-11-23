@@ -20,4 +20,5 @@ Projectrepo van CEDA/Npuls. Bevat alleen documentatie: het verhaal, de samenhang
 - Huisstijl: Npuls. Alleen kleurcombinaties uit de huisstijl, General Sans met Arial als terugval, zwarte lijnen. Geen Npuls-logo op de pagina.
 - Houd de producttabellen, `docs/duo-bestanden.md` en de infographic gelijk met de README's van de productrepo's. De infographic toont per sector de hoofdroute per vraag; wisselstroom staat alleen in de tabel.
 - Presentaties staan in `cedanl/clidev-presentaties/exports/`. Link ernaartoe; zet geen PDF's in deze repo.
-- Noem alleen wat aantoonbaar werkt. Wat nog niet getoetst is, krijgt die vermelding.
+- Noem alleen wat aantoonbaar werkt. Wat nog niet getoetst is, krijgt die vermelding in `docs/richting.md` (bij Nu en Volgende stap), niet in de README.
+- De README blijft op hoofdlijnen: geen details, voorbehouden of privacy-kanttekeningen. Open punten horen in issues.

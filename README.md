@@ -4,7 +4,7 @@ Mbo-, hbo- en wo-instellingen krijgen van DUO bestanden over hun studenten en hu
 
 ## Wat we doen
 
-CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die deze bestanden inlezen en er cijfers over **studiesucces** en **bekostiging** van maken. De definities liggen vast en zijn gedocumenteerd. Waar de bestanden het toelaten, werken de tools in mbo, hbo en wo op dezelfde manier.
+CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die deze bestanden inlezen en er cijfers over **studiesucces** en **bekostiging** van maken. De definities liggen vast en zijn gedocumenteerd. Omdat elke instelling zo met dezelfde definities rekent, kunnen instellingen hun cijfers vergelijken en samen analyses doen. Waar de bestanden het toelaten, werken de tools in mbo, hbo en wo op dezelfde manier.
 
 ## De informatiestroom
 
