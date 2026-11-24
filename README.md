@@ -9,7 +9,7 @@ CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die dez
 ## De informatiestroom
 
 <p align="center">
-  <img src="assets/informatiestroom.svg" alt="Boom van DUO-bestand naar inzicht. Hbo en wo: 1cijferHO via 1cijferho naar Staat van de Onderwijsinstelling; VLPBEK en DEFBEK via ho-bekostiging-bestanden naar een bekostigingsdashboard. Mbo: geen studentenbestand; registratieoverzicht (RO) en TBG-i naar Staat van de Onderwijsinstelling MBO; registratieoverzicht (RO), TBG-i en afslag registerlevering IP via mbo-bekostiging-bestanden naar een bekostigingsdashboard." width="100%">
+  <img src="assets/informatiestroom.svg" alt="Boom van DUO-bestand naar inzicht. Hbo en wo: 1cijferHO via leesbaar maken naar Staat van de Onderwijsinstelling; VLPBEK en DEFBEK via inlezen en controleren naar een bekostigingsdashboard. Mbo: geen studentenbestand; registratieoverzicht (RO) en TBG-i via samenvoegen naar Staat van de Onderwijsinstelling MBO; registratieoverzicht (RO), TBG-i en afslag registerlevering IP via inlezen en controleren naar een bekostigingsdashboard." width="100%">
 </p>
 
 Het verschil tussen de sectoren zit in de wortels. Hbo en wo krijgen van DUO het 1cijferHO-bestand: een door DUO samengesteld studentenbestand met de hele historie van hun studenten. Het mbo heeft dat niet. Daar voegen we registratieoverzichten van meerdere jaren samen, bestanden die bedoeld zijn voor de bekostiging. Meer in [Waar we heen willen](docs/richting.md).

@@ -1,7 +1,7 @@
-"""Maak een PNG van de infographic om te controleren of alles past.
+"""Maak een PNG van het stroomschema om te controleren of alles past.
 
 Gebruik, vanuit de root van de repo:
-    uv run --with playwright python .claude/skills/update-infographic/screenshot.py assets/informatiestroom.svg /tmp/infographic.png
+    uv run --with playwright python .claude/skills/update-stroomschema/screenshot.py assets/informatiestroom.svg /tmp/stroomschema.png
 
 Ontbreekt de browser, draai dan eenmalig: uvx playwright install chromium
 """
