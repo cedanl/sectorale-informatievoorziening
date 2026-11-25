@@ -9,10 +9,12 @@ CEDA, een team binnen [Npuls](https://npuls.nl), maakt open source tools die dez
 ## De informatiestroom
 
 <p align="center">
-  <img src="assets/informatiestroom.svg" alt="Boom van DUO-bestand naar inzicht. Hbo en wo: 1cijferHO via leesbaar maken naar Staat van de Onderwijsinstelling; VLPBEK en DEFBEK via inlezen en controleren naar een bekostigingsdashboard. Mbo: geen studentenbestand; registratieoverzicht (RO) en TBG-i via samenvoegen naar Staat van de Onderwijsinstelling MBO; registratieoverzicht (RO), TBG-i en afslag registerlevering IP via inlezen en controleren naar een bekostigingsdashboard." width="100%">
+  <img src="assets/informatiestroom.svg" alt="Boom van DUO-bestand naar inzicht. Hbo en wo: 1cijferHO via bruikbaar maken (decoderen, controleren; 1 levering) naar Staat van de Onderwijsinstelling; VLPBEK en DEFBEK via bruikbaar maken (decoderen, controleren, samenvoegen) naar een bekostigingsdashboard. Mbo: geen studentenbestand; registratieoverzicht (RO) en TBG-i via bruikbaar maken (decoderen, controleren; min. 3 RO's) naar Staat van de Onderwijsinstelling MBO; registratieoverzicht (RO), TBG-i en afslag registerlevering IP via bruikbaar maken (decoderen, controleren, samenvoegen) naar een bekostigingsdashboard." width="100%">
 </p>
 
-Het verschil tussen de sectoren zit in de wortels. Hbo en wo krijgen van DUO het 1cijferHO-bestand: een door DUO samengesteld studentenbestand met de hele historie van hun studenten. Het mbo heeft dat niet. Daar voegen we registratieoverzichten van meerdere jaren samen, bestanden die bedoeld zijn voor de bekostiging. Meer in [Waar we heen willen](docs/richting.md).
+Het verschil tussen de sectoren zit in de wortels. Hbo en wo krijgen van DUO het 1cijferHO-bestand: een studentenbestand met de hele historie van hun studenten. Eén levering is genoeg. Het mbo heeft zo'n bestand niet. Daar voegen we registratieoverzichten (RO's) samen, bestanden die bedoeld zijn voor de bekostiging. Eén RO beslaat maximaal 2 jaar. Voor volledige cijfers over studiesucces zijn minstens 6 jaar nodig, dus 3 RO's.
+
+De tools maken de bestanden bruikbaar. Ze lezen ze in, zetten codes om naar omschrijvingen en controleren de kwaliteit. Voor bekostiging voegen ze de leveringen van meerdere jaren samen. Welke tool dat doet, staat in de tabellen hieronder. Meer in [Waar we heen willen](docs/richting.md).
 
 ## Producten
 
