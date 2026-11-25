@@ -16,6 +16,7 @@ De SVG wordt gegenereerd door `genereer_informatiestroom.py` in deze map. Pas `a
 3. **Genereer de SVG** vanuit de root van de repo:
    `python .claude/skills/update-stroomschema/genereer_informatiestroom.py assets/informatiestroom.svg`
 4. **Controleer het resultaat met een screenshot:**
+   Eerste keer op deze machine? Installeer dan eerst de browser: `uv run --with playwright playwright install chromium`
    `uv run --with playwright python .claude/skills/update-stroomschema/screenshot.py assets/informatiestroom.svg /tmp/stroomschema.png`
    Bekijk de PNG. Loopt tekst buiten een vak, kort dan de tekst in. Maak vakken niet breder.
 5. **Houd README en stroomschema gelijk.** Elke lijn in de boom moet te herleiden zijn tot de tabel in de README en tot de productrepo. Geen verzonnen verbanden.
