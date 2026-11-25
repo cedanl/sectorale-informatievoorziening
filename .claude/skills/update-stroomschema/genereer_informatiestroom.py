@@ -44,7 +44,7 @@ SECTOREN = [
         "label": "Mbo",
         "producten": [
             {"titel": ["Staat van de", "Onderwijsinstelling MBO"], "uitleg": "indicatoren studiesucces mbo",
-             "tool": ["Inschrijvingshistorie", "decoderen, controleren; min. 3 RO's"]},
+             "tool": ["Inschrijvingshistorie", "decoderen, controleren; RO's stapelen"]},
             {"titel": ["Bekostigingsdashboard"], "uitleg": "aantallen",
              "tool": ["Bekostiging per inschrijving", "decoderen, controleren, samenvoegen"]},
         ],
