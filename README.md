@@ -21,7 +21,7 @@ De tools maken de bestanden bruikbaar. Ze lezen ze in, zetten codes om naar omsc
 ### Studiesucces
 
 <table>
-<tr><th align="left">Product</th><th align="left">Voor</th><th align="left">DUO-bestanden</th><th align="left">Levert</th></tr>
+<tr><th align="left" width="22%">Product</th><th align="left" width="10%">Voor</th><th align="left" width="40%">DUO-bestanden</th><th align="left" width="28%">Levert</th></tr>
 <tr>
 <td valign="top"><a href="https://github.com/cedanl/staat-van-onderwijsinstelling">Staat van de Onderwijsinstelling</a></td>
 <td valign="top">hbo en wo</td>
@@ -51,7 +51,7 @@ De tools maken de bestanden bruikbaar. Ze lezen ze in, zetten codes om naar omsc
 ### Bekostiging
 
 <table>
-<tr><th align="left">Product</th><th align="left">Voor</th><th align="left">DUO-bestanden</th><th align="left">Levert</th></tr>
+<tr><th align="left" width="22%">Product</th><th align="left" width="10%">Voor</th><th align="left" width="40%">DUO-bestanden</th><th align="left" width="28%">Levert</th></tr>
 <tr>
 <td valign="top"><a href="https://github.com/cedanl/ho-bekostiging-bestanden">ho-bekostiging-bestanden</a></td>
 <td valign="top">hbo en wo</td>
