@@ -1,7 +1,7 @@
-"""Genereer de boom-infographic (informatiestroom) als SVG in Npuls-huisstijl.
+"""Genereer het stroomschema (informatiestroom) als SVG in Npuls-huisstijl.
 
 Gebruik, vanuit de root van de repo:
-    python .claude/skills/update-infographic/genereer_informatiestroom.py assets/informatiestroom.svg
+    python .claude/skills/update-stroomschema/genereer_informatiestroom.py assets/informatiestroom.svg
 
 Pas alleen het blok GEGEVENS aan. De opmaak eronder volgt vanzelf.
 """
@@ -28,9 +28,9 @@ SECTOREN = [
         "label": "Hbo en wo",
         "producten": [
             {"titel": ["Staat van de", "Onderwijsinstelling"], "uitleg": "instroom, rendement, uitval, wissel",
-             "tool": ["1cijferho", "omzetten naar leesbare tabellen"]},
+             "tool": ["Leesbaar maken", "1cijferHO naar tabellen"]},
             {"titel": ["Bekostigingsdashboard"], "uitleg": "aantallen en redenen",
-             "tool": ["ho-bekostiging-bestanden", "inlezen, decoderen, controleren"]},
+             "tool": ["Inlezen en controleren", "schone tabellen, datamodel"]},
         ],
         "bestanden": [
             {"naam": "1cijferHO", "uitleg": "studentenbestand", "periode": "hele historie", "naar": {0: "vast"}},
@@ -44,9 +44,9 @@ SECTOREN = [
         "label": "Mbo",
         "producten": [
             {"titel": ["Staat van de", "Onderwijsinstelling MBO"], "uitleg": "indicatoren studiesucces mbo",
-             "tool": ["Samenvoegen in Staat MBO", "RO's stapelen, min. 6 jaar"]},
+             "tool": ["Samenvoegen", "RO's stapelen, min. 6 jaar"]},
             {"titel": ["Bekostigingsdashboard"], "uitleg": "aantallen",
-             "tool": ["mbo-bekostiging-bestanden", "inlezen, decoderen, controleren"]},
+             "tool": ["Inlezen en controleren", "schone tabellen, datamodel"]},
         ],
         "bestanden": [
             {"naam": "Geen", "uitleg": "studentenbestand", "ontbreekt": True},
@@ -199,7 +199,7 @@ def beschrijving():
     for s in SECTOREN:
         for p, prod in enumerate(s["producten"]):
             bronnen = [b["naam"] for b in s["bestanden"] if p in b.get("naar", {})]
-            delen.append(f'{s["label"]}: {", ".join(bronnen)} via {prod["tool"][0]} naar {" ".join(prod["titel"])}.')
+            delen.append(f'{s["label"]}: {", ".join(bronnen)} via {prod["tool"][0].lower()} naar {" ".join(prod["titel"])}.')
     return " ".join(delen)
 
 
