@@ -32,4 +32,4 @@ De SVG wordt gegenereerd door `genereer_informatiestroom.py` in deze map. Pas `a
 
 - Maximaal twee sectoren, twee producten per sector en vier bestanden per sector. Komt er meer bij, overleg dan eerst met de gebruiker over een andere indeling in plaats van de boom vol te proppen.
 - Teksten volgen dezelfde regels als de README: Nederlands, bondig, geen "ho" maar "hbo en wo" (repo-namen blijven zoals ze zijn).
-- Oranje vakken krijgen een thematische naam (wat er gebeurt), geen repo-naam. Repo-namen staan in de producttabel van de README.
+- Een oranje vak heet naar wat de stap oplevert voor het product erboven, gelijk in beide sectoren (nu "Inschrijvingshistorie" en "Bekostiging per inschrijving"). Daaronder één korte regel wat er gebeurt; daar zit het verschil tussen de sectoren. Niet "Bruikbaar maken" (dat zegt de legenda al) en geen repo-namen (die staan in de producttabel van de README).
