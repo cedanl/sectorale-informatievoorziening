@@ -28,9 +28,9 @@ SECTOREN = [
         "label": "Hbo en wo",
         "producten": [
             {"titel": ["Staat van de", "Onderwijsinstelling"], "uitleg": "instroom, rendement, uitval, wissel",
-             "tool": ["Bruikbaar maken", "decoderen, controleren; 1 levering"]},
+             "tool": ["Inschrijvingshistorie", "decoderen, controleren; 1 levering"]},
             {"titel": ["Bekostigingsdashboard"], "uitleg": "aantallen en redenen",
-             "tool": ["Bruikbaar maken", "decoderen, controleren, samenvoegen"]},
+             "tool": ["Bekostiging per inschrijving", "decoderen, controleren, samenvoegen"]},
         ],
         "bestanden": [
             {"naam": "1cijferHO", "uitleg": "studentenbestand", "periode": "hele historie", "naar": {0: "vast"}},
@@ -44,9 +44,9 @@ SECTOREN = [
         "label": "Mbo",
         "producten": [
             {"titel": ["Staat van de", "Onderwijsinstelling MBO"], "uitleg": "indicatoren studiesucces mbo",
-             "tool": ["Bruikbaar maken", "decoderen, controleren; min. 3 RO's"]},
+             "tool": ["Inschrijvingshistorie", "decoderen, controleren; min. 3 RO's"]},
             {"titel": ["Bekostigingsdashboard"], "uitleg": "aantallen",
-             "tool": ["Bruikbaar maken", "decoderen, controleren, samenvoegen"]},
+             "tool": ["Bekostiging per inschrijving", "decoderen, controleren, samenvoegen"]},
         ],
         "bestanden": [
             {"naam": "Geen", "uitleg": "studentenbestand", "ontbreekt": True},
